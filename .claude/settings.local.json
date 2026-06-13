@@ -1,7 +1,23 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npx create-next-app@latest . --typescript --tailwind --app --src-dir --use-npm --no-eslint --import-alias \"@/*\")"
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --src-dir --use-npm --no-eslint --import-alias \"@/*\")",
+      "Bash(npx next *)",
+      "Bash(npx tsc *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(python3 -c \"import pymupdf; print\\('pymupdf ok'\\)\")",
+      "Bash(pdftotext -layout \"C:/Users/USER/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/BEDE8E499F2C67A0F4E365DB169D978B8630607F/transfers/2026-24/Portofolio CPG Anindya_20260613_185443_0000.pdf\" \"C:/Users/USER/garuda/portofolio-cpg.txt\")",
+      "Bash(echo \"EXIT_CODE=$?\")",
+      "Bash(tee /tmp/next-build.log)",
+      "Bash(echo \"EXIT=$?\")",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\" http://localhost:3001)",
+      "Bash(curl *)",
+      "Bash(echo \"# anindya-garuda\")",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git branch *)",
+      "Bash(git push *)"
     ]
   }
 }

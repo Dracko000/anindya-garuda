@@ -1,26 +1,84 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
+/* ===== Tailwind v4 Custom Theme ===== */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-garuda-dark: #0a1510;
+  --color-garuda-mid: #0f1f14;
+  --color-garuda-surface: #132418;
+  --color-garuda-lighter: #1a3c2a;
+  --color-garuda-gold: #d4a843;
+  --color-garuda-gold-light: #e8c05a;
+  --color-garuda-gold-dim: #a08030;
+  --color-garuda-text: #f5efe0;
+  --color-garuda-muted: #a8a090;
+  --color-garuda-subtle: #6a6a5a;
+
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Plus Jakarta Sans", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* ===== Base Styles ===== */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-garuda-mid);
+  color: var(--color-garuda-text);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-garuda-mid);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-garuda-gold);
+  border-radius: 3px;
+}
+
+/* ===== Section Reveal Animation ===== */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ===== Timeline Item Reveal ===== */
+.timeline-item.reveal-visible {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+/* ===== Selection ===== */
+::selection {
+  background: var(--color-garuda-gold);
+  color: var(--color-garuda-dark);
+}
+
+/* ===== Keyframes ===== */
+@keyframes float {
+  0%, 100% { transform: translate(0,0) rotate(0deg); }
+  33%      { transform: translate(30px,-30px) rotate(5deg); }
+  66%      { transform: translate(-20px,20px) rotate(-3deg); }
+}
+
+@keyframes scrollLine {
+  0%   { transform: scaleY(0); transform-origin: top; opacity: 0; }
+  50%  { opacity: 1; }
+  100% { transform: scaleY(1); transform-origin: top; opacity: 0.3; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50%      { opacity: 0.8; transform: scale(1.05); }
 }
