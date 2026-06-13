@@ -74,9 +74,9 @@ export default function About() {
               <h3 className="font-heading font-bold text-lg text-garuda-gold mb-3">Pendidikan</h3>
               <div className="space-y-2">
                 {[
-                  ["SMAN 1 Telagasari", "2021 – 2024"],
-                  ["SMPIT Al Miftah Pasirkamuning", "2015 – 2021"],
-                  ["SDN Pasirkamuning 1", "–"],
+                  ["SMAN 1 Telagasari", "2024 – Sekarang"],
+                  ["SMPIT Al Miftah Pasirkamuning", "2021 – 2024"],
+                  ["SDN Pasirkamuning 1", "2015 – 2021"],
                 ].map(([sekolah, tahun]) => (
                   <div key={sekolah} className="flex items-center gap-2 text-sm">
                     <span className="w-2 h-2 rounded-full bg-garuda-gold/40 flex-shrink-0" />

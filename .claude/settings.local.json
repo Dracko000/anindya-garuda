@@ -17,7 +17,16 @@
       "Bash(git add *)",
       "Bash(git commit *)",
       "Bash(git branch *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(start http://localhost:3000)",
+      "Bash(explorer \"http://localhost:3000\")",
+      "Bash(nginx -v)",
+      "Read(//c//**)",
+      "Read(//c/Program Files/**)",
+      "Bash(nslookup anindya.pramukacikampek.or.id)",
+      "Bash(choco --version)",
+      "Bash(scoop --version)",
+      "Bash(winget --version)"
     ]
   }
 }
