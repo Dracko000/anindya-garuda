@@ -75,15 +75,15 @@ const items = [
   },
   {
     year: "2025",
-    role: "Penegak Laksana — Organisasi & Kepemimpinan",
-    desc: "Aktif di Ambalan Raden Dewi Sartika Gudep 27.078. Mengikuti Sangga Kerja Jambore Cabang Kwarcab Karawang di Bumi Perkemahan Banyusari. Diklatsar Navigasi Darat se Jabodetabek di Buperta Cibubur Jakarta Timur. Latihan Gabungan dengan Ambalan SMK Negeri 1 Karawang. Meraih Juara 3 CTS 1 On 1 Kategori Pelajar Putri KORMI Karawang.",
-    tags: ["Jambore", "Navigasi", "Juara"],
+    role: "Penegak Laksana",
+    desc: "Menyelesaikan SKU Penegak Laksana. Aktif di Ambalan Raden Dewi Sartika Gudep 27.078. Mengikuti Sangga Kerja Jambore Cabang Kwarcab Karawang di Bumi Perkemahan Banyusari. Diklatsar Navigasi Darat se Jabodetabek di Buperta Cibubur Jakarta Timur. Latihan Gabungan dengan Ambalan SMK Negeri 1 Karawang. Meraih Juara 3 CTS 1 On 1 Kategori Pelajar Putri KORMI Karawang.",
+    tags: ["Laksana", "Jambore", "Navigasi", "Juara"],
   },
   {
-    year: "2024 – 2025",
-    role: "Penegak Bantara — Laksana",
-    desc: "Menyelesaikan SKU Penegak Bantara dan Laksana. Aktif dalam Pengurus Organisasi Santri Putri Ponpes Miftahul Ulum Pasirkamuning. Mengikuti berbagai kegiatan KANIRA di Kwartir Ranting Telagasari. Memperoleh berbagai Tanda Kecakapan Khusus (TKK) dari 5 bidang.",
-    tags: ["Bantara", "Laksana", "KANIRA"],
+    year: "2024",
+    role: "Penegak Bantara",
+    desc: "Menyelesaikan SKU Penegak Bantara. Aktif dalam Pengurus Organisasi Santri Putri Ponpes Miftahul Ulum Pasirkamuning. Mengikuti berbagai kegiatan KANIRA di Kwartir Ranting Telagasari. Memperoleh berbagai Tanda Kecakapan Khusus (TKK) dari 5 bidang.",
+    tags: ["Bantara", "KANIRA", "Santri"],
   },
   {
     year: "2015 – 2021",
