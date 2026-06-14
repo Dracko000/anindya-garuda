@@ -80,7 +80,7 @@ const items = [
     tags: ["Jambore", "Navigasi", "Juara"],
   },
   {
-    year: "2023 – 2024",
+    year: "2024 – 2025",
     role: "Penegak Bantara — Laksana",
     desc: "Menyelesaikan SKU Penegak Bantara dan Laksana. Aktif dalam Pengurus Organisasi Santri Putri Ponpes Miftahul Ulum Pasirkamuning. Mengikuti berbagai kegiatan KANIRA di Kwartir Ranting Telagasari. Memperoleh berbagai Tanda Kecakapan Khusus (TKK) dari 5 bidang.",
     tags: ["Bantara", "Laksana", "KANIRA"],
