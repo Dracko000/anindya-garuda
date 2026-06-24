@@ -7,7 +7,7 @@ const items = [
     role: "Anggota Aktif",
     org: "Ambalan Raden Dewi Sartika Gudep 27.078",
     desc: "Anggota aktif ambalan pangkalan SMAN 1 Telagasari, mengikuti berbagai kegiatan kepramukaan dan latihan rutin.",
-    tahun: "2022 – Sekarang",
+    tahun: "2024 – Sekarang",
   },
   {
     role: "Pengurus",
